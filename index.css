@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #c2d4d9;
+  background-image: url('../img/fondo.jpg');
+}
+
+.container {
+  width: 87%;
+  height: 1937px;
+  background-color: #5fa5b6;
+  border-style: solid;
+  border: 10px;
+  border-color: gray;
+  margin: auto;
+  border-radius: 10px;
+}
+
+header {
+  width: 100%;
+  background-color: #448;
+  height: 160px;
+  border-radius: 10px;
+}
+
+.ancho {
+  width: 80%;
+  height: 70px;
+}
+ 
+ .logo {
+   width: 30%;
+   height: 160px;
+   float: left;
+ }
+  
+.logo img {
+  border-radius: 100px;
+}
+
+nav {
+  width: 65%;
+  height: 160px;
+  float: left;
+  padding-top: 65px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: fredo;
+  padding-left: 4px;
+}
+
+nav ul li a:hover {
+  color: blue;
+}
+
+@font-face {
+  font-family: fredo;
+  src: url(../fuentes/fredoka/fredoka-light.ttf);
+}
+
+.section1 {
+  width: 95%;
+  height: 900px;
+  border: 5px;
+  border-color: #448;
+  border-style: solid;
+  border-top-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  margin: auto;
+  background-color: lightblue;
+  box-shadow: 5px 10px #444;
+}
+
+.section1 article {
+  text-align: center;
+}
+
+.section1 article h1 {
+  text-align: center;
+  font-family: fredo;
+  text-decoration: blink;
+  color: #fff;
+}
+
+.section2 {
+  width: 95%;
+  height: 550px;
+  border: 5px;
+  border-color: #448;
+  border-style: solid;
+  border-top-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  margin: auto;
+  background-color: lightblue;
+  box-shadow: 5px 10px #444;
+}

@@ -1,0 +1,23 @@
+@media screen and (min-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 87%;
+    height: 1900px;
+    background-color: #5fa5b6;
+    border-style: solid;
+    border: 10px;
+    border-color: grey;
+    border-radius: 12px;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  
+}
+@media screen and (min-width: 950px) {
+  
+}
